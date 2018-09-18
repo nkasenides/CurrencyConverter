@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customFavoritesListAdapter"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/currencyFlag"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="48dp"
+        android:layout_height="36dp" />
+
+    <TextView
+        android:id="@+id/currencyName"
+        android:layout_toRightOf="@+id/currencyFlag"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/favorites_isBase"
+        android:layout_toRightOf="@+id/currencyName"
+        android:layout_marginLeft="6dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@mipmap/ic_clear_black_48dp"
+        android:tint="#F00"
+        android:id="@+id/currencyRemove" />
+
+</RelativeLayout>

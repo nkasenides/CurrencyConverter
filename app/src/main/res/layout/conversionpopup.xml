@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/conversionPopup"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/popupborder"
+    tools:context="uk.ac.uclan.nkasenides.currencyconverter.MainActivity"
+    android:animateLayoutChanges="true"
+    android:textColor="#FFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pup_Title"
+        android:text="@string/popup_Title"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/pup_Title"
+        android:id="@+id/pup_selectedAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#EEE"
+        android:layout_toRightOf="@+id/pup_selectedAmount"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="61dp"
+        android:id="@+id/pup_selectedName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FF0"
+        android:id="@+id/pup_popupTextConvertTo"
+        android:textAlignment="center"
+        android:layout_below="@+id/pup_selectedName"
+        android:layout_marginTop="25dp"
+        android:text="@string/popupTextConversion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#A00"
+        android:textSize="18sp"
+        android:layout_below="@id/pup_popupTextConvertTo"
+        android:layout_marginTop="25dp"
+        android:id="@+id/pup_convertedAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFF"
+        android:layout_toRightOf="@+id/pup_convertedAmount"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="158dp"
+        android:id="@+id/pup_convertedName" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/popup_close"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pup_close"/>
+
+
+</RelativeLayout>

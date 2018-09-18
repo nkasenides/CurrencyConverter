@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="updatedon_header">Last Updated: </string>
+    <string name="never">Never</string>
+
+    <string name="currencies_infoText">All Currencies</string>
+    <string name="currencies_instr1">Click on </string>
+    <string name="currencies_instr2"> to convert from a currency or </string>
+    <string name="currencies_instr3"> to set it as a favorite.</string>
+
+    <string name="convert_From">Convert Currency: </string>
+    <string name="convert_To">To: </string>
+
+    <string name="aboutTitle">About</string>
+    <string name="aboutApp">A currency conversion application that converts between different currencies and manages
+    them into a favorites list.</string>
+    <string name="aboutApp2">The currency rates are obtained from fixer.io, a free service for current and historical foreign exchange rates published by the European Central Bank.
+The rates are updated daily around 4PM CET.</string>
+    <string name="aboutVersion">v.1.0.0</string>
+
+    <string name="settingsTitle">Settings</string>
+    <string name="settingsUpdates">Auto Update</string>
+    <string name="settingsDarkMode">Dark Mode</string>
+    <string name="settingsBaseCurrency">Base Currency</string>
+    <string name="settingsDecimalPlaces">Decimal Places</string>
+
+    <string name="favoritesTitle">Favorite Currencies</string>
+
+    <string name="popupTextConversion">converts to:</string>
+    <string name="popup_close">Close</string>
+    <string name="popup_Title">Currency Conversion</string>
+
+    <string name="baseSign">B</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_resetToBase">Reset to Base Currency</string>
+    <string name="action_update">Update</string>
+
+    <string-array name="dpSelections">
+        <item>1 decimal place</item>
+        <item>2 decimal places</item>
+        <item>3 decimal places</item>
+        <item>4 decimal places</item>
+        <item>5 decimal places</item>
+    </string-array>
+
+
+</resources>

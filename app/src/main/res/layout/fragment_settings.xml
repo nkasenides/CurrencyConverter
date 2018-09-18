@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="60dp"
+    android:tag="settings_fragment"
+    tools:context="uk.ac.uclan.nkasenides.currencyconverter.SettingsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/settingsTitle" />
+
+    <Switch
+        android:text="@string/settingsUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/updatesSwitch" />
+
+    <Switch
+        android:text="@string/settingsDarkMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/darkModeSwitch" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:labelFor="@+id/baseCurrencySpinner"
+        android:text="@string/settingsBaseCurrency" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/baseCurrencySpinner">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:labelFor="@+id/dpSpinner"
+        android:text="@string/settingsDecimalPlaces" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="15dp"
+        android:entries="@array/dpSelections"
+        android:id="@+id/dpSpinner">
+
+    </Spinner>
+
+</LinearLayout>

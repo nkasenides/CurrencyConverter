@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- app/src/main/res/values/styles.xml -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Dark theme base colours -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+        <item name="android:colorBackground">@color/darkColorPrimaryDark</item>
+        <item name="android:colorForeground">@color/highlightLight</item>
+        <item name="android:textColorPrimary">@color/colorBackground</item>
+        <item name="android:textColorPrimaryInverse">@color/darkColorAccent</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_bright</item>
+        <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/darkColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Custom.AppDark.NoActionBar" parent="Theme.AppCompat.NoActionBar" />
+
+</resources>
